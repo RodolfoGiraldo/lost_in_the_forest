@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="300" height="300" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="1">
- <tileset firstgid="1" source="Grass_Middle.tsx"/>
- <tileset firstgid="2" source="Fences.tsx"/>
- <tileset firstgid="18" source="Chest.tsx"/>
- <tileset firstgid="19" source="Oak_Tree.tsx"/>
- <tileset firstgid="39" source="Oak_Tree_Small.tsx"/>
- <tileset firstgid="57" source="Outdoor_Decor_Free.tsx"/>
- <tileset firstgid="141" source="Path_Tile.tsx"/>
- <tileset firstgid="159" source="Water_Middle.tsx"/>
- <tileset firstgid="160" source="Water_Tile.tsx"/>
- <tileset firstgid="178" source="Path_Middle.tsx"/>
+ <tileset firstgid="1" source="grass_middle.tsx"/>
+ <tileset firstgid="2" source="fences.tsx"/>
+ <tileset firstgid="18" source="chest.tsx"/>
+ <tileset firstgid="19" source="oak_tree.tsx"/>
+ <tileset firstgid="39" source="oak_tree_small.tsx"/>
+ <tileset firstgid="57" source="outdoor_decor_free.tsx"/>
+ <tileset firstgid="141" source="path_tile.tsx"/>
+ <tileset firstgid="159" source="water_middle.tsx"/>
+ <tileset firstgid="160" source="water_tile.tsx"/>
+ <tileset firstgid="178" source="path_middle.tsx"/>
  <layer id="1" name="Capa de patrones 1" width="300" height="300">
   <data encoding="csv">
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,

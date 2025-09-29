@@ -1,16 +1,17 @@
+import 'package:flame/flame.dart';
+import 'package:flame/game.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_in_the_forest/lost_in_the_forest.dart';
 
 void main() {
-  runApp(const MainApp());
-}
+  WidgetsFlutterBinding.ensureInitialized();
+  // Flame.device.fullScreen();
+  Flame.device.setLandscape();
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+  final LostInTheForest lostInTheForestGame = LostInTheForest();
 
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(body: Center(child: Text('Hello World!a'))),
-    );
-  }
+  runApp(
+    GameWidget(game: kDebugMode ? LostInTheForest() : lostInTheForestGame),
+  );
 }

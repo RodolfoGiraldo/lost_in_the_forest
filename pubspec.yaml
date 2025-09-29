@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flame_tiled: ^3.0.7
+  flame: ^1.32.0
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +19,25 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/cute_fantasy_free/tiles/grass_middle.png
+    - assets/images/cute_fantasy_free/tiles/path_tile.png
+    - assets/images/cute_fantasy_free/tiles/water_middle.png
+    - assets/images/cute_fantasy_free/tiles/water_tile.png
+    - assets/images/cute_fantasy_free/tiles/path_middle.png
+    - assets/images/cute_fantasy_free/outdoor_decoration/fences.png
+    - assets/images/cute_fantasy_free/outdoor_decoration/chest.png
+    - assets/images/cute_fantasy_free/outdoor_decoration/oak_tree.png
+    - assets/images/cute_fantasy_free/outdoor_decoration/oak_tree_small.png
+    - assets/tiles/first_map.tmx
+    - assets/tiles/grass_middle.tsx
+    - assets/tiles/fences.tsx
+    - assets/tiles/chest.tsx
+    - assets/tiles/oak_tree.tsx
+    - assets/tiles/oak_tree_small.tsx
+    - assets/tiles/outdoor_decor_free.tsx
+    - assets/tiles/path_tile.tsx
+    - assets/tiles/water_middle.tsx
+    - assets/tiles/water_tile.tsx
+    - assets/tiles/path_middle.tsx
+    - assets/images/cute_fantasy_free/outdoor_decoration/outdoor_decor_free.png
