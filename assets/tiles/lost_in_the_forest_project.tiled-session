@@ -3,10 +3,79 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "",
+    "activeFile": "first_map.tmx",
     "expandedProjectPaths": [
+        "."
     ],
     "fileStates": {
+        "FreePack.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "beach_tile.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "chest.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "chicken.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "cliff_tile.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "cow.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "farmland_tile.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "fences.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "first_map.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": -139.39393939393938,
+                "y": -236.3636363636365
+            }
+        },
+        "grass_middle.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "oak_tree.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "oak_tree_small.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "outdoor_decor_free.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "path_middle.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "path_tile.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "pig.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "player.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 1
@@ -15,7 +84,23 @@
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
+        "player_actions.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
         "player_actions32_32.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "sheep.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "water_middle.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "water_tile.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 1
         }
@@ -27,12 +112,42 @@
     "map.tileWidth": 16,
     "map.width": 100,
     "openFiles": [
+        "beach_tile.tsx",
+        "cliff_tile.tsx",
+        "farmland_tile.tsx",
+        "grass_middle.tsx",
+        "path_middle.tsx",
+        "path_tile.tsx",
+        "water_middle.tsx",
+        "water_tile.tsx",
+        "player.tsx",
+        "player_actions.tsx",
+        "chest.tsx",
+        "oak_tree.tsx",
+        "oak_tree_small.tsx",
+        "fences.tsx",
+        "outdoor_decor_free.tsx",
+        "chicken.tsx",
+        "cow.tsx",
+        "pig.tsx",
+        "sheep.tsx",
+        "first_map.tmx",
+        "FreePack.tsx"
     ],
     "project": "lost_in_the_forest_project.tiled-project",
     "recentFiles": [
-        "player_32_32.tsx",
-        "player_actions32_32.tsx",
-        "player.tsx"
+        "beach_tile.tsx",
+        "cliff_tile.tsx",
+        "farmland_tile.tsx",
+        "grass_middle.tsx",
+        "path_middle.tsx",
+        "path_tile.tsx",
+        "water_middle.tsx",
+        "water_tile.tsx",
+        "player.tsx",
+        "player_actions.tsx",
+        "chest.tsx",
+        "oak_tree.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
