@@ -7,17 +7,32 @@
     "expandedProjectPaths": [
     ],
     "fileStates": {
+        "player.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "player_32_32.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "player_actions32_32.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
     },
-    "last.imagePath": "C:/Users/Sama/Documents/proyectos_jose/lost_in_the_forest/assets/images/cute_fantasy_free/outdoor_decoration",
-    "map.height": 300,
+    "last.imagePath": "C:/Users/Sama/Documents/proyectos_jose/lost_in_the_forest/assets/images",
+    "map.height": 100,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
-    "map.width": 300,
+    "map.width": 100,
     "openFiles": [
     ],
     "project": "lost_in_the_forest_project.tiled-project",
     "recentFiles": [
+        "player_32_32.tsx",
+        "player_actions32_32.tsx",
+        "player.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
