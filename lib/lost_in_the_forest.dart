@@ -7,6 +7,9 @@ class LostInTheForest extends FlameGame {
   final World world = MapDemo();
   @override
   Future<void> onLoad() async {
+    // Loadall images into cache
+    await images.loadAllImages();
+
     cameraComponent = CameraComponent(world: world);
 
     cameraComponent.viewfinder.anchor = Anchor.topLeft;

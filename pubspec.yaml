@@ -29,6 +29,21 @@ flutter:
     - assets/images/cute_fantasy_free/outdoor_decoration/chest.png
     - assets/images/cute_fantasy_free/outdoor_decoration/oak_tree.png
     - assets/images/cute_fantasy_free/outdoor_decoration/oak_tree_small.png
+    # 
+    - assets/images/cute_fantasy_free/animals/cow/cow.png
+    - assets/images/cute_fantasy_free/animals/sheep/sheep.png
+    - assets/images/cute_fantasy_free/animals/pig/pig.png
+    - assets/images/cute_fantasy_free/player/player.png
+    - assets/images/FreePack.png
+    - assets/tiles/player.tsx
+    - assets/tiles/cliff_tile.tsx
+    - assets/tiles/pig.tsx
+    - assets/tiles/sheep.tsx
+    - assets/tiles/cow.tsx
+    - assets/tiles/FreePack.tsx
+    - assets/images/cute_fantasy_free/Player/Player.png
+    - assets/images/cute_fantasy_free/Player/Player_Actions.png
+    #
     - assets/tiles/first_map.tmx
     - assets/tiles/grass_middle.tsx
     - assets/tiles/fences.tsx
