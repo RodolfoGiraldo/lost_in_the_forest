@@ -30,10 +30,12 @@ flutter:
     - assets/images/cute_fantasy_free/outdoor_decoration/oak_tree.png
     - assets/images/cute_fantasy_free/outdoor_decoration/oak_tree_small.png
     # 
+    - assets/images/cute_fantasy_free/tiles/cliff_tile.png
+    - assets/tiles/player_actions.tsx
     - assets/images/cute_fantasy_free/animals/cow/cow.png
     - assets/images/cute_fantasy_free/animals/sheep/sheep.png
     - assets/images/cute_fantasy_free/animals/pig/pig.png
-    - assets/images/cute_fantasy_free/player/player.png
+    - assets/images/cute_fantasy_free/Player/Player_Actions.png
     - assets/images/FreePack.png
     - assets/tiles/player.tsx
     - assets/tiles/cliff_tile.tsx

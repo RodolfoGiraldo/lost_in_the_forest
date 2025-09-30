@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flame/components.dart';
 import 'package:flame_tiled/flame_tiled.dart';
-import 'package:lost_in_the_forest/actores/players.dart';
+import 'package:lost_in_the_forest/actores/player.dart';
 
 class MapDemo extends World {
   late TiledComponent map;
@@ -16,7 +16,18 @@ class MapDemo extends World {
     );
 
     add(map);
-    add(Player());
+
+    final spawnPointsLayer = map.tileMap.getLayer<ObjectGroup>('spawnpoints');
+
+    for (final spawnPoint in spawnPointsLayer?.objects ?? []) {
+      switch (spawnPoint.class_) {
+        case 'Player':
+          final player = Player(position: Vector2(spawnPoint.x, spawnPoint.y));
+          add(player);
+          break;
+        default:
+      }
+    }
 
     return super.onLoad();
   }
