@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="80" height="80" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="14">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="80" height="80" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="31">
  <tileset firstgid="1" source="grass_middle.tsx"/>
  <tileset firstgid="2" source="outdoor_decor_free.tsx"/>
  <tileset firstgid="86" source="FreePack.tsx"/>
@@ -268,5 +268,23 @@
  <objectgroup id="5" name="spawnpoints">
   <object id="11" name="Player" type="Player" x="384.25" y="319.75" width="31.75" height="32.25"/>
   <object id="12" name="Npc" type="Npc" x="448" y="240" width="32" height="31.6667"/>
+ </objectgroup>
+ <objectgroup id="6" name="collisions">
+  <object id="14" name="Arbol" type="Arbol" x="521.5" y="294" width="43" height="58"/>
+  <object id="15" name="Arbol" type="Arbol" x="569" y="341.5" width="45" height="61"/>
+  <object id="17" name="Arbol" type="Arbol" x="485" y="354.5" width="22.5" height="32"/>
+  <object id="18" name="Cofre" type="Cofre" x="559" y="415" width="17.5" height="16"/>
+  <object id="19" name="Cofre" type="Cofre" x="416" y="543.667" width="16" height="15.6667"/>
+  <object id="20" name="Cerdo" type="Cerdo" x="401.667" y="644.333" width="29" height="23.6667"/>
+  <object id="21" name="Cerdo" type="Cerdo" x="497" y="612" width="29" height="26.3333"/>
+  <object id="22" name="Roca" type="Roca" x="303.75" y="863.5" width="16" height="16"/>
+  <object id="23" name="Roca" type="Roca" x="303.75" y="879.25" width="17" height="15.75"/>
+  <object id="24" name="Roca" type="Roca" x="320.25" y="879.75" width="15.75" height="15.75"/>
+  <object id="25" name="Roca" type="Roca" x="336.25" y="879.75" width="15.5" height="16.25"/>
+  <object id="26" name="Roca" type="Roca" x="303.25" y="896" width="17.25" height="16.5"/>
+  <object id="27" name="Cofre" type="Cofre" x="288" y="959.5" width="16.5" height="17"/>
+  <object id="28" name="Oveja" x="403" y="932.75" width="24" height="19.5"/>
+  <object id="29" name="Oveja" type="Oveja" x="434.75" y="1014.25" width="23" height="18"/>
+  <object id="30" name="Oveja" type="Oveja" x="450.25" y="950.25" width="23.25" height="17.25"/>
  </objectgroup>
 </map>

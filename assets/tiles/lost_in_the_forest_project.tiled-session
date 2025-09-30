@@ -41,11 +41,11 @@
             "scaleInEditor": 1
         },
         "first_map.tmx": {
-            "scale": 0.33,
-            "selectedLayer": 2,
+            "scale": 0.75,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": -139.39393939393938,
-                "y": -236.3636363636365
+                "x": 480,
+                "y": 341.33333333333326
             }
         },
         "grass_middle.tsx": {
