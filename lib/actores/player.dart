@@ -35,7 +35,28 @@ class Player extends SpriteAnimationGroupComponent
 
   @override
   bool onKeyEvent(KeyEvent event, Set<LogicalKeyboardKey> keysPressed) {
-    // final isLeftKeyPressed = keysPressed
+    final isLeftKeyPressed = keysPressed.contains(LogicalKeyboardKey.arrowLeft);
+    final isRightKeyPressed = keysPressed.contains(
+      LogicalKeyboardKey.arrowRight,
+    );
+    final isUpKeyPressed = keysPressed.contains(LogicalKeyboardKey.arrowUp);
+    final isDownKeyPressed = keysPressed.contains(LogicalKeyboardKey.arrowDown);
+
+    if (isLeftKeyPressed && isRightKeyPressed) {
+      playerDirection = PlayerDirection.none;
+    } else if (isUpKeyPressed && isDownKeyPressed) {
+      playerDirection = PlayerDirection.none;
+    } else if (isLeftKeyPressed) {
+      playerDirection = PlayerDirection.left;
+    } else if (isRightKeyPressed) {
+      playerDirection = PlayerDirection.right;
+    } else if (isUpKeyPressed) {
+      playerDirection = PlayerDirection.up;
+    } else if (isDownKeyPressed) {
+      playerDirection = PlayerDirection.down;
+    } else {
+      playerDirection = PlayerDirection.none;
+    }
     return super.onKeyEvent(event, keysPressed);
   }
 

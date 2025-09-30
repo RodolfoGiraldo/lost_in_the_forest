@@ -1,8 +1,9 @@
 import 'package:flame/components.dart';
+import 'package:flame/events.dart';
 import 'package:flame/game.dart';
 import 'package:lost_in_the_forest/maps/map_demo.dart';
 
-class LostInTheForest extends FlameGame {
+class LostInTheForest extends FlameGame with HasKeyboardHandlerComponents {
   late final CameraComponent cameraComponent;
   final World world = MapDemo();
   @override
