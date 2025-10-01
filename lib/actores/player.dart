@@ -3,8 +3,10 @@ import 'dart:async';
 import 'package:flame/components.dart';
 import 'package:flutter/src/services/hardware_keyboard.dart';
 import 'package:flutter/src/services/keyboard_key.g.dart';
+import 'package:lost_in_the_forest/collision_block.dart';
 import 'package:lost_in_the_forest/lost_in_the_forest.dart';
 import 'package:lost_in_the_forest/utils/enums.dart';
+import 'package:lost_in_the_forest/utils/utils.dart';
 
 class Player extends SpriteAnimationGroupComponent
     with HasGameRef<LostInTheForest>, KeyboardHandler {
@@ -15,6 +17,7 @@ class Player extends SpriteAnimationGroupComponent
 
   final double stepTime = 0.15;
 
+  List<CollisionBlock> collisionsBlocks = [];
   PlayerDirection playerDirection = PlayerDirection.none;
   double moveSpeed = 80;
   bool isFacingRight = true;
@@ -30,6 +33,7 @@ class Player extends SpriteAnimationGroupComponent
   @override
   void update(double dt) {
     _updatePlayerMovement(dt);
+    _checkHorizontalCollisions();
     super.update(dt);
   }
 
@@ -147,5 +151,19 @@ class Player extends SpriteAnimationGroupComponent
         texturePosition: texturePosition,
       ),
     );
+  }
+
+  void _checkHorizontalCollisions() {
+    for (final block in collisionsBlocks) {
+      if (block.isTree) {
+        if (checkCollision(this, block)) {
+          if (velocity.x > 0) {
+            velocity.x = 0;
+            position.x = block.x - (width - 20);
+            position.y = block.y + height;
+          }
+        }
+      }
+    }
   }
 }
